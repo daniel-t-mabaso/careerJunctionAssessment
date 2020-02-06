@@ -17,6 +17,7 @@ The assumptions made when creating the programme were:
 - the data is all required to be output into a single file, 'output.csv'.
 - the name of the file containing the data will be sent/entered as input to the program
 - The data provided will only contain sales made within a single year. If not, then the assumption is the aggregation is not concerned with the year of the sale and thus multiple sales from the same months in different years can be aggregated.
+- A Client shares similar attributes as a Person and thus can inherit from Person
 
 Scaling Considerations:
 - In the event that the program has to be scaled, the different elements involved in the sale are all represented as objects that can be expanded upon. E.g. Amount, though only contained as a value in the input file, is made into an object in the program to allow for easier scaling if currencies and any other attributes of the amount are to be a factor to be considered.
