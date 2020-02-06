@@ -1,4 +1,40 @@
-class Client:
+class Person:
+    
+    def __init__(self, name):
+        """Person constructor/initialiser. Called when creating a new Person object
+    
+            Parameters:
+            self (Client): the calling object
+            name (String): the name of the new client
+            
+           """         
+        #client name is a private variable
+        self.name = name
+        
+    #Setters
+    def set_name(self, name):
+        """Function to set the client's name
+    
+            Parameters:
+            self (Client): the calling object
+            name (String): the new client name
+            
+           """         
+        self.name = name
+        
+    #Getters
+    def get_name(self):
+        """Function to get the client name
+    
+            Parameters:
+            self (Client): the calling object
+            
+            Returns:
+            String: returns the client name
+           """         
+        return self.name
+    
+class Client(Person):
     
     def __init__(self, name):
         """Client constructor/initialiser. Called when creating a new Client object
@@ -9,7 +45,7 @@ class Client:
             
            """         
         #client name is a private variable
-        self.name = name
+        Person.__init__(self,name)
         self.sales = []
         
     #Setters
