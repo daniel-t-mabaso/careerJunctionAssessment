@@ -1,0 +1,9 @@
+Username,Client,Date,Product,Amount
+'User 1','Client 1','12-Mar-2016','Product 1',1000.00
+'User 2','Client 2','16-Mar-2016','Product 1',1122.00
+'User 3','Client 3','17-Mar-2016','Product 2',2084.00
+'User 4','Client 1','18-Mar-2016','Product 2',3098.00
+'User 5','Client 2','01-Apr-2016','Product 1',5671.00
+'User 6','Client 3','12-Apr-2016','Product 3',1928.00
+'User 2','Client 2','15-Apr-2016','Product 3',1747.00
+'User 1','Client 1','16-Apr-2016','Product 2',1801.00
